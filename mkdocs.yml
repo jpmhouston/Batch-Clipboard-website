@@ -1,0 +1,71 @@
+site_name: Batch Clipboard
+site_url: https://batchclipboard.bananameter.lol
+repo_url: https://github.com/jpmhouston/Cleepp
+repo_name: Batch Clipboard on GitHub
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to always light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to always dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to automatic light/dark mode
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.footer
+      - navigation.path
+      - navigation.expand
+      - toc.integrate
+
+copyright: Copyright &copy; 2025 Bananameter Labs
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@bananameterlabs
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/bananameterlabs.bsky.social
+    - icon: fontawesome/brands/twitter
+      link: http://twitter.com/bananameterlabs
+    - icon: fontawesome/brands/github
+      link: https://github.com/jpmhouston/Cleepp/
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@bananameter.lol
+      name: Email
+    - icon: fontawesome/solid/house
+      link: https://bananameter.lol
+      name: Bananameter Labs homepage
+
+plugins:
+  - blog
+
+nav:
+  - About:
+    - Batch Clipboard for macOS: index.md
+  - Documentation:
+    - Installing and Starting: About-Batch-Clipboard-for-macOS.md
+    - The-Basics.md
+    - Beyond-the-Basics.md
+    - The Batch Clipboard Menu: continued-on-wiki.md
+    # - The Batch Clipboard Menu:
+      # - About the Batch Clipboard Menu: The-Batch-Clipboard-Menu.md
+      # - Menu-Icon-States.md
+      # - Special-Menu-Icon-Actions.md
+      # - Menu-Items.md
+      # - Batch-Mode-Menu-Items.md
+      # - Expanded-Menu.md -->
+  - Blog:
+    - blog/index.md
