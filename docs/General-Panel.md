@@ -1,8 +1,3 @@
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Settings,%20general.png|alt=Settings Window General Tab]]
+![Settings Window General Tab](img/settings-general.png)
 
-Coming soon.
-
----
-
-Previous: [[Settings]]\
-Next: [[Appearance Panel]]
+Documentation describing the General tab is coming soon.

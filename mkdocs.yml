@@ -66,8 +66,15 @@ nav:
       - Menu-Items.md
       - Batch-Mode-Menu-Items.md
       - Expanded-Menu.md
-    - Settings: continued-on-wiki.md
-    #- App Store / GitHub Differences:
+    - Settings:
+      - About Settings: Settings.md
+      - General-Panel.md
+      - Appearance-Panel.md
+      - Support-Us-Panel.md
+      - Storage-Panel.md
+      - Ignore-Panel.md
+      - Advanced-Panel.md
+    - App Store / GitHub Differences: continued-on-wiki.md
     #- Advanced:
   - Blog:
     - blog/index.md

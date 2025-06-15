@@ -1,12 +1,7 @@
 This tab and panel are unavailable in versions of Batch Clipboard downloaded from GitHub. It's only in versions downloaded from the Mac App Store as it involves supporting us through an App Store in-app purchase.
 
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Settings,%20purchase.png|alt=Settings Window Support Us Tab]]
+![Settings Window Support Us Tab](img/settings-purchase.png)
 
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Settings,%20purchase,%20detail%20open.png|alt=Settings Window Purchase Details]]
+![Settings Window Purchase Details](img/settings-purchase-detail.png)
 
-Coming soon.
-
----
-
-Previous: [[Appearance Panel]]\
-Next: [[Storage Panel]]
+Documentation describing the Support Us tab is coming soon.

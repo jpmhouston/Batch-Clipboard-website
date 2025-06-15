@@ -1,8 +1,3 @@
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Settings,%20ignore.png|alt=Settings Window Ignore Tab]]
+![Settings Window Ignore Tab](img/settings-ignore.png)
 
-Coming soon.
-
----
-
-Previous: [[Storage Panel]]\
-Next: [[Advanced Panel]]
+Documentation describing the Ignore tab is coming soon.

@@ -1,8 +1,3 @@
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Settings,%20advanced.png|alt=Settings Window Advanced Tab]]
+![Settings Window Advanced Tab](img/settings-advanced.png)
 
-Coming soon.
-
----
-
-Previous: [[Ignore Panel]]\
-Next: [[Differences between GitHub and Mac App Store Versions]]
+Documentation describing the Advanced tab is coming soon.
