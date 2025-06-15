@@ -28,7 +28,6 @@ theme:
       - navigation.tabs.sticky
       - navigation.footer
       - navigation.path
-      - navigation.expand
       - toc.integrate
 
 copyright: Copyright &copy; 2025 Bananameter Labs
@@ -74,7 +73,14 @@ nav:
       - Storage-Panel.md
       - Ignore-Panel.md
       - Advanced-Panel.md
-    - App Store / GitHub Differences: continued-on-wiki.md
-    #- Advanced:
+    - App Store / GitHub Differences:
+      - Base-App-Differences.md
+      - Bonus-Feature-Menu-Items.md
+      - Start-Batch-Mode-From-History.md
+      - More-Expanded-Menu-Features.md
+    - Advanced:
+      - Turn-Off-Clipboard-Monitoring.md
+      - Ignore-Custom-Copy-Types.md
+    - Privacy-Policy.md
   - Blog:
     - blog/index.md

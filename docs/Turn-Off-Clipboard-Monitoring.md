@@ -1,3 +1,5 @@
+> Most users won't need to use these advanced features.
+
 You can issue a shell command in Terminal or a script to tell Batch Clipboard
 to stop monitoring the clipboard and ignore anything copied for as
 long as you need:
@@ -17,6 +19,9 @@ You can set `ignoreEvents` to true, copy the data and set `ignoreEvents`
 back to false. While Batch Clipboard is ignoring the clipboard the menu bar icon
 will appear disabled.
 
+_These details are also noted in the Advanced panel of the Settings window,
+see [Advanced Panel](Advanced-Panel.md)._
+
 You can do the same by clicking the Batch Clipboard menu icon with
 <kbd>SHIFT (⇧)</kbd> + <kbd>CONTROL (^)</kbd> + <kbd>OPTION (⌥)</kbd>
 pressed. Do this once to start ignoring the clipboard, and again to resume
@@ -31,8 +36,3 @@ You can also click the menu icon with <kbd>CONTROL (^)</kbd> + <kbd>OPTION (⌥)
 pressed to ignore only the next copy. After the next copy, normal clipboard
 monitoring will automatically resume and the menu bar icon will be restored
 to normal.
-
----
-
-Previous: [[Advanced]]\
-Next: [[Ignore Custom Copy Types]]
