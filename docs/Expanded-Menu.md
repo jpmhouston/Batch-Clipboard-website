@@ -2,7 +2,7 @@ Clicking the Batch Clipboard menu icon with <kbd>OPTION (⌥)</kbd> pressed
 will show the expanded menu which also includes recent history of everything
 on the clipboard:
 
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/Expanded%20menu.png|alt=Expanded Menu]]
+![Expanded Menu](img/menu-expanded.png)
 
 When in *batch mode*, the item to be pasted next
 will probably not be at the very bottom but will still be indicated by the
@@ -31,18 +31,15 @@ clipboard items, or having used arrow-keys to highlight it.
 - **Clear History...** use this menu item to completely empty the saved
 clipboard history. If currently in *batch mode*, then all such items
 will also be cleared and clipboard behavior will return to normal.
-The shortcut for this menu item,
+
+    The shortcut for this menu item,
 <kbd>COMMAND (⌘)</kbd> + <kbd>OPTION (⌥)</kbd> + <kbd>DELETE (⌫)</kbd>
-is not global and will only work when the Batch Clipboard menu is open.\
-\
+is not global and will only work when the Batch Clipboard menu is open.
+
     *If you're wanting to delete a record of sensitive data you may have copied,
 consider instead temporarily pausing the app’s monitoring of the clipboard
-beforehand, see [[Special Menu Icon Actions]] and [[Ignore Custom Copy Types]].*
+beforehand, see [Special Menu Icon Actions](Special-Menu-Icon-Actions.md)
+and [Ignore Custom Copy Types](Ignore-Custom-Copy-Types.md).*
 
 The number of history items displayed in the menu can be changed in the settings
-window, see [[Settings]].
-
----
-
-Previous: [[Batch Mode Menu Items]]\
-Next: [[Settings]]
+window, see [Settings](Settings.md).

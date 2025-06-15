@@ -1,21 +1,17 @@
-- When the Batch Clipboard menu has the outlined icon, the clipboard will have
-its normal behavior:&ensp;
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/clipboard.png|alt=Normal Icon]]
+- ![Normal Icon](img/menu-icon-normal.png)  When the Batch Clipboard menu has the outlined icon,
+the clipboard will have its normal behavior.
 
-- When the Batch Clipboard menu has the filled-in icon, it’s in *batch mode*, but has no items yet:&ensp;
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/clipboard.fill.png|alt=Collecting Started Icon]]\
-It will have a number 0 to its left.
+- ![Starting Batch Icon](img/menu-icon-filled.png)  When the Batch Clipboard menu has the
+filled-in icon, it’s in *batch mode*, but has no items yet.
 
-- When the Batch Clipboard menu has the filled-in icon, with the asterisk inside
-it has collected some clipboard items:&ensp;
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/list.clipboard.fill.png|alt=Collecting/Replaying Icon]]\
-The number collected and yet to be pasted will be to its left.
+    It will have a number 0 to its left.
 
-- The Batch Clipboard menu has the disabled icon when you’ve disabled clipboard monitoring:&ensp;
-[[https://github.com/jpmhouston/Cleepp/blob/forkmain/Designs/Cleepp/clipboard.disabled.png|alt=Disabled Icon]]\
-See [[Special Menu Icon Actions]] and [[Turn Off Clipboard Monitoring]].
+- ![Batch Icon](img/menu-icon-content.png)  When the Batch Clipboard menu has the filled-in icon,
+with the asterisk inside it has collected some clipboard items.
 
----
+    The number collected and yet to be pasted will be to its left.
 
-Previous: [[The Batch Clipboard Menu]]\
-Next: [[Special Menu Icon Actions]]
+- ![Disabled Icon](img/menu-icon-disabled.png)  The Batch Clipboard menu has the disabled icon
+when you’ve disabled clipboard monitoring.
+
+    See [Special Menu Icon Actions](Special-Menu-Icon-Actions.md) and [Turn Off Clipboard Monitoring](Turn-Off-Clipboard-Monitoring.md).

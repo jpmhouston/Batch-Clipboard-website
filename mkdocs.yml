@@ -59,13 +59,15 @@ nav:
     - Installing and Starting: About-Batch-Clipboard-for-macOS.md
     - The-Basics.md
     - Beyond-the-Basics.md
-    - The Batch Clipboard Menu: continued-on-wiki.md
-    # - The Batch Clipboard Menu:
-      # - About the Batch Clipboard Menu: The-Batch-Clipboard-Menu.md
-      # - Menu-Icon-States.md
-      # - Special-Menu-Icon-Actions.md
-      # - Menu-Items.md
-      # - Batch-Mode-Menu-Items.md
-      # - Expanded-Menu.md -->
+    - The Batch Clipboard Menu:
+      - About the Batch Clipboard Menu: The-Batch-Clipboard-Menu.md
+      - Menu-Icon-States.md
+      - Special-Menu-Icon-Actions.md
+      - Menu-Items.md
+      - Batch-Mode-Menu-Items.md
+      - Expanded-Menu.md
+    - Settings: continued-on-wiki.md
+    #- App Store / GitHub Differences:
+    #- Advanced:
   - Blog:
     - blog/index.md
