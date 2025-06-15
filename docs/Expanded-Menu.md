@@ -5,7 +5,7 @@ on the clipboard:
 ![Expanded Menu](img/menu-expanded.png)
 
 When in *batch mode*, the item to be pasted next
-will probably not be at the very bottom but will still be indicated by the
+will likely not be at the very bottom but will still be indicated by the
 badge "replay from here". There will also be a separator line between this and
 the earlier clipboard items below it. (When running macOS versions before
 14.0 Sonoma, this item won't get this badge but still have a separator line)
