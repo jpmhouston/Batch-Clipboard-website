@@ -28,7 +28,10 @@ theme:
       - navigation.tabs.sticky
       - navigation.footer
       - navigation.path
+      - search.highlight
       - toc.integrate
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
 
 copyright: Copyright &copy; 2025 Bananameter Labs
 extra:
@@ -50,6 +53,7 @@ extra:
 
 plugins:
   - blog
+  - search
 
 nav:
   - About:
