@@ -20,10 +20,14 @@ with anyone or transmits them to any online servers.
 Also, it's open source, and free to download on GitHub or the Mac App Store.
 (The App Store version has some additional features unlocked an in-app purchase, one-time US$3.99)
 
-- [Download from the Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238)
+- [Get from the Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238)
 - [Download from GitHub](https://github.com/jpmhouston/Cleepp/releases/latest)
 
-Batch Clipboard works on macOS Big Sur 11.0 or higher.
+Also, at times there may be a beta available [on GitHub](https://github.com/jpmhouston/Cleepp/releases) or [from TestFlight](https://testflight.apple.com/join/epg3cusH).
+
+Version 1.0.x of Batch Clipboard works on macOS Big Sur 11.0 or higher.
+
+---
 
 I humbly ask for your consideration of support, to myself by way of the in-app purchase
 of the App Store version, or with a [tip at buymeacoffee.com](https://www.buymeacoffee.com/bananameterlabs).
@@ -31,4 +35,4 @@ of the App Store version, or with a [tip at buymeacoffee.com](https://www.buymea
 donation to them at their buymeacoffee [page](https://www.buymeacoffee.com/p0deje).*
 
 Made by [Bananameter Labs](https://bananameter.lol). Find us on some social media services
-as `bananameterlabs`, see the buttons below.
+as `bananameterlabs`, see the logo buttons in the footer below.

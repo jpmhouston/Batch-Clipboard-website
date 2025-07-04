@@ -32,6 +32,7 @@ theme:
       - toc.integrate
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  custom_dir: overrides
 
 copyright: Copyright &copy; 2025 Bananameter Labs
 extra:
