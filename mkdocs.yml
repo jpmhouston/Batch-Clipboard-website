@@ -78,8 +78,8 @@ nav:
       - Storage-Panel.md
       - Ignore-Panel.md
       - Advanced-Panel.md
-    - App Store / GitHub Differences:
-      - Base-App-Differences.md
+    - App Store vs. GitHub Versions:
+      - App-Store-Version-Differences.md
       - Bonus-Feature-Menu-Items.md
       - Start-Batch-Mode-From-History.md
       - More-Expanded-Menu-Features.md
