@@ -9,6 +9,15 @@ You may download beta versions from GitHub [here](https://github.com/jpmhouston/
 
 Below is the full list of changes taken from the project's [changelog](https://github.com/jpmhouston/Batch-Clipboard/blob/main/CHANGELOG.md). If there are any more changes of note before the final release then they'll be added here.
 
+### New in beta 2, 2025-08-22:
+
+- Added support for a beta channel to Sparkle updates in the non-app store version, a checkbox in the General panel of the Settings window to get betas in addition to final releases, a new menu item just below About... when an update found. If the user cancels the update alert on launch then they can use this menu item instead of going into the Settings window.
+- Revise the menu items some more, tweaking the titles of several items, changing which are shown and disabled when not applicable vs hidden.
+- New extra feature for the app store releases, checkbox in the Advanced panel of the Settings window to hide the menu bar icon when the app has no active batch, or when the application re-opened in the Finder (also causes the Settings window to open).
+- Fixes and improvements to the application intents accessible from Shortcuts and Spotlight.
+
+### Earlier changes
+
 - Implemented major feature: ability to turn history off for simplicity and system effeciency, now the default.
 - When history off and without need to stay consistent with its bottom-up order, ie. most recent at the top, the current batch is now shown in top-down order, ie. first to paste at the top.
 - Migrating from 1.0.x to 2.0 shows a Intro page offering to switch to the new history-off default or keep using history, the default for those users is to keep using the history features unless they choose to switch then or later in the Settings window Storage panel.
