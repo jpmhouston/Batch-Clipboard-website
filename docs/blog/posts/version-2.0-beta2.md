@@ -6,7 +6,7 @@ categories:
   - Features
 ---
 
-# Beta 2 of Batch Clipoboard version 2.0 is out
+# Beta 2 of Batch Clipoboard Version 2.0 is Out
 
 The second beta of Batch Clipboard 2.0 for macOS is now available on TestFlight and GitHub.
 
