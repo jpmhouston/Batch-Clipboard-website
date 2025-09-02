@@ -4,7 +4,7 @@ Batch Clipboard is a free, simple menu bar utility for macOS that that adds the 
 to copy and paste many items together. This feature is also known as a "clipboard queue" or
 as "sequential paste" in other, large clipboard manager apps.
 This app is for people who don't want a large and complex clipboard manager that has a lot of
-new interface elements to learn, yet still want to the clipboard queue feature at times.
+new interface elements to learn, yet still want to this clipboard super-power.
 
 > Batch Clipboard is derived from the open source clipboard manager Maccy,
 if you **do** want a great full-featured Mac clipboard manager check it out [here](https://maccy.app/).
@@ -23,9 +23,9 @@ Also, it's open source, and free to download on GitHub or the Mac App Store.
 - [Get from the Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238)
 - [Download from GitHub](https://github.com/jpmhouston/Cleepp/releases/latest)
 
-Also, at times there may be a beta available [on GitHub](https://github.com/jpmhouston/Cleepp/releases) or [from TestFlight](https://testflight.apple.com/join/epg3cusH).
+Also, at times there may be a beta available on GitHub, or to those who [sign up](https://testflight.apple.com/join/epg3cusH) on TestFlight for the App Store version.
 
-Version 1.0.x of Batch Clipboard works on macOS Big Sur 11.0 or higher.
+Version 2.0 of Batch Clipboard and all earlier verions work on macOS Catalina 10.15 or higher.
 
 ---
 

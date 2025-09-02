@@ -1,6 +1,6 @@
 site_name: Batch Clipboard
 site_url: https://batchclipboard.bananameter.lol
-repo_url: https://github.com/jpmhouston/Cleepp
+repo_url: https://github.com/jpmhouston/Batch-Clipboard
 repo_name: Batch Clipboard on GitHub
 theme:
   name: material
@@ -58,9 +58,10 @@ plugins:
 
 nav:
   - About:
-    - Batch Clipboard for macOS: index.md
+    - About Batch Clipboard for macOS: index.md
+    - Changes-Coming-In-Version-2.0.md
   - Documentation:
-    - Installing and Starting: About-Batch-Clipboard-for-macOS.md
+    - Installing-and-Starting.md
     - The-Basics.md
     - Beyond-the-Basics.md
     - The Batch Clipboard Menu:
@@ -87,6 +88,7 @@ nav:
       - Turn-Off-Clipboard-Monitoring.md
       - Ignore-Custom-Copy-Types.md
     - Privacy-Policy.md
-    - Changes-Coming-In-Version-2.0.md
   - Blog:
     - blog/index.md
+#  - Media Materials:
+#    - PR-Version-2.0.md

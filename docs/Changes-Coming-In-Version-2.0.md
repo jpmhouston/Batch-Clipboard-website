@@ -1,40 +1,35 @@
-Version 2.0 of Batch Clipboard in nearly ready. It's a substantial update with a lot of changes, both visible and under the hood.  
-Here's the TL;DR:
+# Changes in Version 2.0
 
-1. A simpler and more efficient history-off mode is now the default.
-2. A repeat last batch feature, paste the same set of clips again without going back to re-copy them.
-3. In the app store version after in-app purchase: saved batches to repeat anytime later.
+Version 2.0 of Batch Clipboard is now available (or will be soon) from [GitHub](https://github.com/jpmhouston/Batch-Clipboard/releases/latest) or the [Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238). It's a substantial update with a lot of changes, both visible and under the hood.
 
-You may download beta versions from GitHub [here](https://github.com/jpmhouston/Batch-Clipboard/), or join TestFlight as a tester of the App Store version [here](https://testflight.apple.com/join/epg3cusH).
+TL;DR:
 
-Below is the full list of changes taken from the project's [changelog](https://github.com/jpmhouston/Batch-Clipboard/blob/main/CHANGELOG.md). If there are any more changes of note before the final release then they'll be added here.
+1. new Repeat Last Batch menu item
+2. setting to hide the menubar icon
+3. performance and simplification improvements
+4. for app store in-app purchasers: save batches to repeat anytime later
 
-### New in beta 2, 2025-08-22:
+Below is the list of the 20 main changes and improvements summarized from the project's full [changelog](https://github.com/jpmhouston/Batch-Clipboard/blob/main/CHANGELOG.md).
 
-- Added support for a beta channel to Sparkle updates in the non-app store version, a checkbox in the General panel of the Settings window to get betas in addition to final releases, a new menu item just below About... when an update found. If the user cancels the update alert on launch then they can use this menu item instead of going into the Settings window.
-- Revise the menu items some more, tweaking the titles of several items, changing which are shown and disabled when not applicable vs hidden.
-- New extra feature for the app store releases, checkbox in the Advanced panel of the Settings window to hide the menu bar icon when the app has no active batch, or when the application re-opened in the Finder (also causes the Settings window to open).
-- Fixes and improvements to the application intents accessible from Shortcuts and Spotlight.
+> The remaining documentation pages [starting here](Installing-and-Starting.md) are written for version 1.0, but will be updated shortly.
 
-### Earlier changes
-
-- Implemented major feature: ability to turn history off for simplicity and system effeciency, now the default.
-- When history off and without need to stay consistent with its bottom-up order, ie. most recent at the top, the current batch is now shown in top-down order, ie. first to paste at the top.
-- Migrating from 1.0.x to 2.0 shows a Intro page offering to switch to the new history-off default or keep using history, the default for those users is to keep using the history features unless they choose to switch then or later in the Settings window Storage panel.
-- Implemented major feature: replaying previous batch again, and support giving the menu item a keyboard shortcut (empty by default).
-- Implemented major feature for app store version users who've made an in-app purchase: saving current or previous batches, each can have an optional keyboard shortcut. They appear in a new section of the menu when there's no current batch active, each with their clips in a submenu and items to replay, rename. A saved batch or individual clips within can be deleted with the same command-delete shortcut when the menu is open.
-- Improved feature for app store version users who've made an in-app purchase: in-between pasting multiple clips at a time from the current batch, a new option to insert a space, newline, or comma.
-- By necessity, the Undo Last Paste feature for app store version users who've made an in-app purchase is now removed in the new default history-off mode.
-- Menu simplification: in new default history-off mode, no complication of a different form of the menu when its opened with the option key pressed.
-- Menu simplification: the Start Replaying and Advance menu items are now hidden by default. They can be restore with an option in the Settings window Advanced panel.
-- Menu simplification: the type-in filter history field, the one that's available in the expanded menu when history on for app store version users who've made an in-app purchase, this is hidden by default unless turned on in the Settings window Appearance panel.
-- Minor improvements to the menu: when deleting items from the menu with command-delete the menu no longer closes, new title labels over Current Batch, Saved History, Saved Batch sections.
-- Improved simplicity of how the menu is opened in reaction to clicks in hopes of addressing possible failures, stripping some unused feature of the old behavior inherited from Maccy. Added an option to the Settings window Advanced panel for reverting to the old behavior in case of incompatibilities.
-- Improved layout and location of options in Settings window panels: new history switch and related menu size fields together in the Storage panel, new or improved descriptive labels in the General, Appearance, and Advanced panels.
-- Improved layout and language in the Intro window, including descriptions of IAP-unlocked features in the app store version.
-- Unit tests to verify correct queue, history behavior, and also general backing store correctness including migration from older versions. Improved menu reliability with sanity checking and logging of unexpected conditions.
-- Migrated source to new GitHub repository that isn't a fork of Maccy.
-
-Known issues:
-- An icon for macOS 26 Tahoe is coming.
-- GitHub vesions already inform you of updates and allow you to easily download and install them, but it soon let you choose to follow beta releases as well.
+- Feature: the ability to turn history off for simplicity and system effeciency with option in the Settings window Storage panel, with the default for new users being off.
+- Feature: users migrating from 1.0.x to 2.0 shows a Introduction window page offering to switch to the new history-off default or keep using history.
+- Feature: retaining the most recent batch in the application's database so it can be replaying again from a menu item, and support giving it a keyboard shortcut (empty by default).
+- Feature: saving the current or previous batch indefinitely, each saved batch recalled from menu items a new section of the menu, each can have an optional keyboard shortcut.
+- Feature: enancement to Paste Multiple, in-between pasting each clip a new option to insert a space, newline, or comma.
+- Feature: the ability to hide the menu bar icon when the app has no active batch, or after re-opeing the application from the Finder, controlled by an option in the General panel of the Settings window.
+- Improvement: the current batch being copied or pasted is now shown in the menu in top-down order, first to paste at the top.
+- Improvement: when deleting items from the menu with command-delete the menu no longer closes.
+- Improvement: for clarity, new title labels over Current Batch, Saved History, Saved Batch sections.
+- Improvement: revised some menu item titles, order, and made more shown and disabled when not applicable instead of hidden for consistency and discoverability.
+- Improvement: better layout and location of options in Settings window panels, with new history switch and related menu size fields together in the Storage panel, new or improved descriptive labels in the General, Appearance, and Advanced panels.
+- Improvement: better layout and language in the Introduction window, descriptions of IAP-unlocked features in the app store version, it's window title.
+- Improvement: for simplication, the Start Replaying and Advance menu items are now hidden by default, controlled by an option in the Settings window Advanced panel.
+- Improvement: for simplication, the type-in filter history field is hidden by default, controlled by an option in the Settings window Appearance panel.
+- Improvement: the Undo Last Paste feature that requires clipboard history now hidden for simplicity when history features disabled.
+- Improvement: simplified internal mechanism inherited from Maccy for how the menu is opened, with option to revert in the Settings window Advanced panel in case of incompatibilities.
+- Improvement: support for a beta channel for updates to the non-app store version, with a checkbox in the General panel of the Settings window to include beta updates.
+- Improvement: when update available in the non-app store version, a persistent menu items added in case the user closes the update notification window.
+- Improvement: fixes and additions to the application intents accessible from Shortcuts and Spotlight.
+- Improvement: migrated source to a new GitHub repository that isn't a fork of Maccy, now registration to download and install by name using homebrew is possible (ie. without an intermediate tap).
