@@ -10,13 +10,13 @@ with a free download, then use the Open button or find Batch Clipboard in your A
 and double-click its title or icon.
 
 You can avoid the App Store if you prefer and downloading from
-[GitHub](https://github.com/jpmhouston/Cleepp/releases/latest).
+[GitHub](https://github.com/jpmhouston/Batch-Clipboard/releases/latest).
 Choose the ".dmg" file open it and in the Finder window that opens drag Batch Clipboard to
 your Applications folder, locate it there and double-click its title or icon.
 _Note, you can place the application in any alternate folder if you prefer_.
 
 You can also install as a homebew cask, find instructions in the
-[GitHub README file](https://github.com/jpmhouston/Cleepp).
+[GitHub README file](https://github.com/jpmhouston/Batch-Clipboard).
 
 ## First Launch
 

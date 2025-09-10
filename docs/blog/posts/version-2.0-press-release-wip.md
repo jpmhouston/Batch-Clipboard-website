@@ -24,4 +24,4 @@ Working on a press release. Feedback anyone?
 > More than before and less than ever. So to celebrate “more” and “less”, that in-app purchase for more is now priced less for the next 2 weeks: US$1.99 so (more or less) half price!
 > 
 > Mac App Store: [https://apps.apple.com/app/batch-clipboard/id6695729238](https://apps.apple.com/app/batch-clipboard/id6695729238)  
-> Non-App Store download: [https://github.com/jpmhouston/Cleepp/releases/latest](https://github.com/jpmhouston/Cleepp/releases/latest)
+> Non-App Store download: [https://github.com/jpmhouston/Batch-Clipboard/releases/latest](https://github.com/jpmhouston/Batch-Clipboard/releases/latest)

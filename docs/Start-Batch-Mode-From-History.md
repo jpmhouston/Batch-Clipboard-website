@@ -5,7 +5,7 @@ In addition to collecting a set of clipboard items by copying them normally,
 you can begin *batch mode* with items previously copied and in the expanded menu,
 see [Expanded Menu](Expanded-Menu.md). Here's how:
 
-1. Click the Cleepp menu icon with <kbd>OPTION (⌥)</kbd> pressed.
+1. Click the Batch Clipboard menu icon with <kbd>OPTION (⌥)</kbd> pressed.
 
 2. Select a history item with <kbd>OPTION (⌥)</kbd> pressed, or highlighting the
 item and press <kbd>OPTION (⌥)</kbd> + <kbd>ENTER</kbd>.

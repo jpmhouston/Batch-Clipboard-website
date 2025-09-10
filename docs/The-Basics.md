@@ -1,7 +1,7 @@
 Batch Clipboard is a menu that lives in on the right side of the menubar, its icon is a little clipboard
 with an asterisk on it: ![Icon](img/menu-icon-normal.png)
 
-More about menubar icon here: [Menu Icon States](https://github.com/jpmhouston/Cleepp/wiki/Menu-Icon-States).
+More about menubar icon here: [Menu Icon States](Menu-Icon-States.md).
 
 The app’s core feature is to let you copy multiple items from one document,
 then switch to another document and paste those items in the order you copied them.

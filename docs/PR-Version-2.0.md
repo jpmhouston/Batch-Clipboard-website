@@ -17,7 +17,7 @@ But also the new version includes more. “Repeat Last Batch” will paste the m
 To celebrate the new version's release, that in-app purchase is now discounted for the next 2 weeks, half price at US$1.99.
 
 Mac App Store: [https://apps.apple.com/app/batch-clipboard/id6695729238](https://apps.apple.com/app/batch-clipboard/id6695729238)  
-Non-App Store download: [https://github.com/jpmhouston/Cleepp/releases/latest](https://github.com/jpmhouston/Cleepp/releases/latest)  
+Non-App Store download: [https://github.com/jpmhouston/Batch-Clipboard/releases/latest](https://github.com/jpmhouston/Batch-Clipboard/releases/latest)  
 Website: [https://batchclipboard.bananameter.lol](https://batchclipboard.bananameter.lol)  
 All 20 changes in version 2.0: [https://batchclipboard.bananameter.lol/Changes-Coming-In-Version-2.0/](https://batchclipboard.bananameter.lol/Changes-Coming-In-Version-2.0/)
 

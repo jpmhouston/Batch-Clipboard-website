@@ -24,7 +24,7 @@ menu item (or a quicker way, see below).
 
 > _However, if you've found you've copied the wrong thing, you perhaps_ don't
 _need to cancel and start over. It_ is _possible to delete an item from the
-batch, see [Batch Mode Menu Items](https://github.com/jpmhouston/Cleepp/wiki/Batch-Mode-Menu-Items)._
+batch, see [Batch Mode Menu Items](Batch-Mode-Menu-Items.md)._
 
 Also, while in _batch mode_ and after you've started pasting from the batch,
 it's fine to copy more items. Those items copied will get added to the end
@@ -71,13 +71,13 @@ is left on the clipboard)_
     To then advance manually without pasting, use the
 **Advance to Next Batch Item** menu item.
 
-See also [Special Menu Icon Actions](https://github.com/jpmhouston/Cleepp/wiki/Special-Menu-Icon-Actions) and [Menu Items](https://github.com/jpmhouston/Cleepp/wiki/Menu-Items).
+See also [Special Menu Icon Actions](Special-Menu-Icon-Actions.md) and [Menu Items](Menu-Items.md).
 
 ## Using the Start Batch Shortcut Instead
 
 You may wish to forego the Batch Clipboard copy keyboard shortcut
 altogether and instead assign a shortcut to **Start Batch**. You may do
-so in the General panel of Batch Clipboard's Settings, see [Settings](https://github.com/jpmhouston/Cleepp/wiki/Settings).
+so in the General panel of Batch Clipboard's Settings, see [Settings](Settings.md).
 
 Instead of the default workflow for Batch Clipboard:
 

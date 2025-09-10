@@ -21,7 +21,7 @@ Also, it's open source, and free to download on GitHub or the Mac App Store.
 (The App Store version has some additional features unlocked an in-app purchase, one-time US$3.99)
 
 - [Get from the Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238)
-- [Download from GitHub](https://github.com/jpmhouston/Cleepp/releases/latest)
+- [Download from GitHub](https://github.com/jpmhouston/Batch-Clipboard/releases/latest)
 
 Also, at times there may be a beta available on GitHub, or to those who [sign up](https://testflight.apple.com/join/epg3cusH) on TestFlight for the App Store version.
 
