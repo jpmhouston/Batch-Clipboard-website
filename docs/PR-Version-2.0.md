@@ -2,9 +2,9 @@
 
 # Bananameter Labs Announces Batch Clipboard Version 2.0
 
-> Vancouver, BC, Canada - September 5, 2025 - For immediate release
+> Vancouver, BC, Canada - September 10, 2025 - For immediate release
 >
-> Bananameter Labs today announced the release of version 2.0 of their first product Batch Clipboard, a utility for macOS released early 2025 and rated 5-stars in the Mac App Store. Version 2.0 adds 20 features and improvements.
+> Bananameter Labs this week announced the release of version 2.0 of their first product Batch Clipboard, a utility for macOS released early 2025 and rated 5-stars in the Mac App Store. Version 2.0 adds 20 features and improvements.
 
 ----
 
@@ -14,7 +14,7 @@ Version 2.0 is released today and brings Less performance hit, less duplication 
 
 But also the new version includes more. “Repeat Last Batch” will paste the most recent batch of items again with re-copying them. The menu is more consistent and simpler by default. For users using the Mac App Store to get the application and support its development with a one-time in-app purchase, they get the ability to save the last batch indefinitely to recall anytime. An unlimited number can be saved, recall from a new section in the menu, and each optionally given a custom keyboard shortcut.
 
-To celebrate the new version's release, that in-app purchase is now discounted for the next 2 weeks, half price at US$1.99.
+To celebrate the new version's release, that in-app purchase is now discounted until Friday September 19th, half price at US$1.99.
 
 Mac App Store: [https://apps.apple.com/app/batch-clipboard/id6695729238](https://apps.apple.com/app/batch-clipboard/id6695729238)  
 Non-App Store download: [https://github.com/jpmhouston/Batch-Clipboard/releases/latest](https://github.com/jpmhouston/Batch-Clipboard/releases/latest)  
