@@ -28,5 +28,5 @@ About Bananameter Labs
 Founded in 2024 by Pierre Houston, a longtime Mac and iOS developer, Bananameter Labs began with a plan to make simple, effective, joyful software tools. Batch Clipboard for macOS is the first product available as of September 2025. More products are planned also for iPhones, iPad and other platforms.
 
 https://bananameter.lol  
-media@bananameter.com  
+media@bananameter.lol  
 @bananameterlabs on bsky, mastodon

@@ -3,7 +3,7 @@ Effective date 23-Nov-2024
  
 This Privacy Policy describes the policies of Bananameter Labs (the “Company”) of 8505 Howard Crescent, BC, Canada V2P5R5, email: batchclipboard@bananameter.lol, phone: +1 (778) 829-2259 on the collection, use, disclosure of your information that we collect when you use our desktop application Batch Clipboard (the “Program”). By accessing or using the Program, you are consenting to the collection and use of your information in accordance with this Privacy Policy. If you do not consent to the same, please do not access or use the Program. 
 
-We may modify this Privacy Policy at any time without any prior notice to you and in some what the Program will inform you of the revised Privacy Policy. The revised Policy will be effective 180 days from when the revised Policy is posted at https://batchclipbord-privacy.bananameter.com. Your continued access or use of the Program after such time will constitute your acceptance of the revised Privacy Policy. 
+We may modify this Privacy Policy at any time without any prior notice to you and in some what the Program will inform you of the revised Privacy Policy. The revised Policy will be effective 180 days from when the revised Policy is posted at https://batchclipbord-privacy.bananameter.lol. Your continued access or use of the Program after such time will constitute your acceptance of the revised Privacy Policy. 
  
 ### Your Rights:
 
