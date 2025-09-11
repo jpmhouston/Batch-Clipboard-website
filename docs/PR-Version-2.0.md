@@ -1,14 +1,14 @@
 ![Bananameter Labs Logo](img/bananameterlabs-logo.png) . ![App Logo](img/app-logo.png)
 
-# Bananameter Labs Announces Batch Clipboard Version 2.0
+# Batch Clipboard 2.0 Adds Easy Serial Paste Feature to macOS
 
-> Vancouver, BC, Canada - September 10, 2025 - For immediate release
+> Vancouver, BC, Canada - September 5, 2025 (revised Sept. 10) - For immediate release
 >
-> Bananameter Labs this week announced the release of version 2.0 of their first product Batch Clipboard, a utility for macOS released early 2025 and rated 5-stars in the Mac App Store. Version 2.0 adds 20 features and improvements.
+> This week Bananameter Labs announced the release of version 2.0 of their first product Batch Clipboard, a utility for macOS released early 2025 and rated 5-stars in the Mac App Store. The free and open source app adds a serial paste feature to macOS, and now version 2.0 adds 20 features and improvements.
 
 ----
 
-Batch Clipboard is not another a clipboard manager. It has less complication, less new UI to learn, less to manage. But the application gives a Mac clipboard super-power often called "serial paste" or a "paste queue". It's the easiest to use compared to any of the clipboard managers with this feature: copy any number of items with Control-Command-C, and then Control-Command-V to paste each one.
+Batch Clipboard is not another a clipboard manager. It has less complication, less new UI to learn, less to manage. But the application gives a Mac clipboard super-power often called "serial paste", "sequential paste", or a "paste queue". It's the easiest to use compared to any of the clipboard managers with this feature: first copy any number of items with Control-Command-C, and then Control-Command-V to paste each one.
 
 Version 2.0 is released today and brings Less performance hit, less duplication of macOS 26 features, less complexity in the menu behind its menu bar icon, plus the user can choose to hide that icon automatically when not needed for less space taken up in the menu bar.
 
