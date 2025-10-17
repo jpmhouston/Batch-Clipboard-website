@@ -1,5 +1,7 @@
 > Reminder: these features are only available after purchasing the bonus features
-in the Mac App Store version of Batch Clipboard.
+in the Mac App Store version of Batch Clipboard, plus also only when turning on
+the history features in the Storage panel of the Settings window. See
+[Settings: Storage](Storage-Panel.md).
 
 ## Full History in the Expanded Menu
 

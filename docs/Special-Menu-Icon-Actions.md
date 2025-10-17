@@ -23,6 +23,13 @@ or using the menu item, or the Batch Clipboard copy keyboard shortcut).
 The menu bar icon will appear disabled for the duration while the clipboard is being
 ignored.
 
+> _By default, Batch Clipboard's history features are off as macOS now ships
+with a similar feature. When history features are off Batch Clipboard only
+monitors the clipboard when _batch mode_ is on, indicated by the number
+beside its menu bar icon. At all other times Batch Clipboard is not doing
+anything in the background, not monitoring the clipboard, not storing any new
+data.
+
 Also, clicking the clicking the menu bar icon with <kbd>OPTION (⌥)</kbd> pressed
 will opens the expanded Batch Clipboard menu, which also includes recent history of
 everything on the clipboard. This gives you some features for replaying past items
@@ -34,5 +41,5 @@ See [Expanded Menu](Expanded-Menu.md) and
 In short:
 
 - <kbd>CONTROL (^)</kbd> pressed: toggle *batch mode*
-- <kbd>OPTION (⌥)</kbd> pressed: show the expanded menu 
+- <kbd>OPTION (⌥)</kbd> pressed: show the expanded menu if history features are on
 - <kbd>CONTROL (^)</kbd> + <kbd>OPTION (⌥)</kbd> pressed: privacy

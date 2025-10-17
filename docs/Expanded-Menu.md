@@ -1,14 +1,18 @@
-Clicking the Batch Clipboard menu icon with <kbd>OPTION (⌥)</kbd> pressed
-will show the expanded menu which also includes recent history of everything
-on the clipboard:
+Batch Clipboard's history features are turned off by default, and when off,
+nothing on this page is applicable.
+
+However you may have turned the clipboard history features on in the Storage
+panel of the Settings window. See [Settings: Storage](Storage-Panel.md). If so,
+then Batch Clipboard menu icon with <kbd>OPTION (⌥)</kbd> pressed will show
+the expanded menu which also includes recent history of everything that's been
+put on the clipboard:
 
 ![Expanded Menu](img/menu-expanded.png)
 
-When in *batch mode*, the item to be pasted next
-will likely not be at the very bottom but will still be indicated by the
-badge "replay from here". There will also be a separator line between this and
-the earlier clipboard items below it. (When running macOS versions before
-14.0 Sonoma, this item won't get this badge but still have a separator line)
+When in _batch mode_, the items you've copied and yet to paste are also
+in a section of menu items titled "Active Batch", and when opening the menu
+with <kbd>OPTION (⌥)</kbd> pressed, the "History" section will appear below
+that.
 
 What you can do with the expanded history items:
 
