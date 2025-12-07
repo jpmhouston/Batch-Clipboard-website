@@ -19,6 +19,6 @@ But also more, such as “Repeat Last Batch” to paste the most recent batch of
 More than before and less than ever. So to celebrate “more” and “less”, that in-app purchase for more is now priced less for the next 2 weeks: US$1.99 so (more or less) half price!
 
 Batch Clipboard 2.0 is out now. Avaiable in the Mac App Store [here](https://apps.apple.com/app/batch-clipboard/id6695729238)
-and if you prefer to manually install the non-App Store edition then [here](https://github.com/jpmhouston/Batch-Clipboard/releases/latest) (or use homebrew: `brew install batchclipboard`)
+and if you prefer to manually install the non-App Store edition then [here](https://github.com/jpmhouston/Batch-Clipboard/releases/latest).
 
 Media people, please find the press release at [https://batchclipboard.bananameter.lol/PR-Version-2.0](https://batchclipboard.bananameter.lol/PR-Version-2.0)
