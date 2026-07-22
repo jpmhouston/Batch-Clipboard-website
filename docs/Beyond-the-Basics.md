@@ -1,3 +1,10 @@
+You don't need to know any of this. If you just want to use Batch Clipboard
+and don't care much about the details of how it works, go with what's desribed
+in the [The Basics](The-Basics.md) and close this documentation site since
+you're ready to go (though please [exit via the gift shop](index.md#thanks-to-our-users)),
+or skip to the next page [Ways to Use Batch Clipbaord](Ways-to-Use.md)
+for techniques and tricks which might not be obvious.
+
 ## About Batch Mode
 
 When using the Batch Clipboard keyboard shortcut
@@ -63,49 +70,9 @@ and automatically advance to the next item.
 
 You may _choose to_ the use this keyboard shortcut for each clip however
 (we at Bananameter Labs usually do) because it follow a nice symmetrical
-and memorable mental model:
+and memorable mental model: <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + ...
+<kbd>C</kbd> to copy into a batch, or <kbd>V</kbd> to paste from it.
 
-- <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> to copy into
-a batch,
-- <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>V</kbd>
-to paste from it.
-
-For tips and techniques to using the frontmost application's copy and paste
-commands with Batch Clipboard, see [Advanced Copy and Paste Techniques](Advanced-Copy-and-Paste-Techniques.md).
-
-## Entering Batch Mode Explicitly
-
-The Batch Clipboard menu has a **Start Batch** menu item. Using this will
-start batch mode with the active batch empty. The menu bar will include
-"0" (zero) beside the menu bar icon.
-
-You may wish to often or always use Batch Clipboard by starting an empty batch
-and then copying with your frontmost application's **Copy** (or **Cut**)
-commands instead of using the keyboard shortcut
-<kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd>.
-If this is the case, you can choose to add a keyboard shortcut for
-**Start Batch** in the Batch Clipboard Settings window.
-
-For example you could delete this default shortcut for **Copy into Batch**
-and instead make <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd>
-the shortcut for **Start Batch**. Or choose something different and sometimes
-use that and sometimes use the default **Copy into Batch** shortcut, or change
-them both 🤷‍♂️.
-
-See also [Menu Items](Menu-Items.md) and [Settings: General](General-Panel.md).
-
-## Beyond the Keyboard Shortcuts
-
-A secret ways to enter _batch mode_ besides the keyboard shortcuts and menu
-items is to click the Batch Clipboard menu bar icon with <kbd>CONTROL (^)</kbd>
-pressed (the menu doesn't open).
-
-When you're already in _batch mode_, doing the same again is a shortcut for
-**Cancel Batch**. So holding <kbd>CONTROL (^)</kbd> when clicking the
-Batch Clipboard menu bar icon, in effect, toggles in and out of _batch mode_.
-
-See also [Special Menu Icon Actions](Special-Menu-Icon-Actions.md).
-
-## Using Clipboard History
-
-Documentation of the history features are coming soon.
+The next page [Ways to Use Batch Clipbaord](Ways-to-Use.md)
+list the other potential workflows besides this, ones which may may make
+more sense for you.

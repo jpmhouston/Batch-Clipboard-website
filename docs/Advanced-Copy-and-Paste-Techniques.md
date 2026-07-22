@@ -1,75 +1,71 @@
-## Using The Application's _Cut_ or Special _Copy_ Command
+You may wish to collect into a batch with an application command other than
+**Copy**, such as **Copy as Pathname** in the Finder, or of course **Cut**.
+You may also with to paste using an application command other than **Paste**,
+such as **Paste and Match Style**.
 
-A secret of Batch Clipboard is that when it's in _batch mode_, any changes
-to the clipboard whether it's from using the global shortcut
-<kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> or using
-any command in the frontmost application such as **Cut**, it will be added
-to the batch.
+### Application Command Other Than Copy
 
-> This is as long as the command copies to the regular system clipboard,
-> and not an alternate one. One example of an alternate clipboard is the
-> Ruler clipboard usually used by a **Copy Ruler** command.
+As mentioned above and in [Beyond the Basics](Beyond-the-Basics.md), once
+in _batch mode_ with the menu bar icon highlighted, anything copied normally
+in your application will be added to the batch and increment the count in the
+menu bar.
 
-If everything you want to include in the batch is by cutting rather than
-copying, or at least the first item is, then the trick is to manually
-enter _batch mode_ using **Start Batch** in the Batch Clipboard menu.
+However, not only will a **Copy** command or <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd>
+in your frontmost application add to the batch, but also **Cut**, or any
+special-purpose command that adds to the clipbaord. Any action that alters the
+clipboard will be added to the batch, such as:
 
-So to be clear, to **Cut** from the frontmost application into a batch:
+- a button on webpage that copies content to the clipboard,
+- clipboard sharing from an iOS device.
 
-1. If not yet in _batch mode_, pick **Start Batch** from the
-Batch Clipboard menu. If already in _batch mode_ with a number beside
-its icon in the menu bar, then step 1 is not needed.
+### Application Command Other Than Paste
 
-2. Use your frontmost application's **Cut** command. The number beside
-the Batch Clipboard icon in the menu bar should increment. You can also
-click the icon to see what you've just cut within the menu.
+It's tricker, and arguably more awkward, to paste from a batch using an
+application alternate Paste command, but possible. It requires turning on the
+**Show advanced paste menu items** option in the Settings tab **Advanced**.
+For more details see [Advanced Panel](Advanced-Panel.md).
 
-> As mentioned [here](Beyond-the-Basics.md#Behind-The-Curtain),
-> Batch Clipboard's global shortcut is only needed to start a batch and do
-> the first copy, after which the frontmost application's copy / cut
-> command or shortcut are _also_ added to the batch.
-> When _batch mode_ is already started, the Batch Clipboard copy shortcut
-> <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> isn't
-> really needed, it does the same as the frontmost application's **Copy**,
-> but using it anyway has a memorable symmetry with the paste shortcut.
+Turning this on adds the menu item that is titled either
+**Start Pasting From Batch** or **Skip to Next** depending on
+circumstance. Using them can be illustrated by example ...
 
-> In truth, pasting isn't really symmetrical to copying, because while a
-> copy in one application _can_ be detected from another, a paste _cannot_.
-> Those who don't care about presenting a fake symmetry but rather about
-> exposing how things work under the hood (those who prefer cars with
-> manual transmissions, say) can assign a keyboard shortcut to
-> **Start Batch** in the Gerenal panel of the Setting window. See
-> [Beyond the Basics](Beyond-the-Basics.md) and
-[Settings - General](General-Panel.md).
+Firstly, if you are in the middle of replaying a batch and the next item
+to paste you wish use your application's special-purpose command instead of
+the keyboard shortcut <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>V</kbd>
+or **Paste & Advance** in the Batch Clipbaord menu.
 
-## Using The Application's Special _Paste_ Command
+Imortantly, when you are in the process of pasting from a batch then the
+next clip to be pasted is already present on the system clipboard, and the
+advanced paste menu item has the title **Skip to Next**. What to do is:
 
-If you frequently need to paste certain items from a batch using the
-frontmost application's paste command, such as **Paste and Match Style**,
-then the answer is to turn on **Show advanced paste menu items** in
-the Advanced panel of the Settings window.
+- Invoke your application's special-purpose paste command
+- Use **Skip to Next**
 
-Turning this checkbox on reveals the additional menu items
-**Start Pasting From Batch** and **Advance To Next Batch Item**.
-See also [Settings - Advnaced](Advnaced-Panel.md).
+Secondly, if instead you are collecting clips into a batch and then the first
+of these you wish to paste using your application's special-purpose command.
+In this case the next item to paste isn't already on the clipboard, because
+while still collecting clips into the batch the clipboard contains the most
+recent thing copied.
 
-Like when copying using the frontmost application's copy command, there's
-a special case for the first item in a batch. For example, to use the
-frontmost application's **Paste and Match Style** command for an item
-from the active batch:
+In this case the advanced paste menu item has the title
+**Start Pasting From Batch**. What to do in this case is:
 
-1. If you haven't started pasting any items from the batch yet and the
-**Start Pasting From Batch** menu item in the Batch Clipboard menu is
-enabled, first select that menu item. If this isn't the first item to be
-pasted from the batch and this menu item is not enabled, then step 1 is
-not needed.
+- Use **Start Pasting From Batch** (this places the next clip to paste from
+the batch onto the system clipboard and the menu item is changed to **Skip to Next**)
+- Invoke your application's special-purpose paste command
+- Use **Skip to Next**
 
-2. Use the frontmost application's **Paste and Match Style** command.
+## A Mental Model (For Deep Thinkers)
 
-3. Select the **Advance To Next Batch Item** menu item in the
-Batch Clipboard menu.
+You can think of Batch Clipbaord's copy keyboard shortcut, or **Copy Into Batch**
+in its menu, as doing:
 
-These three steos is what **Paste From Batch & Advance** does
-automatically, except invoking the frontmost application's normal paste
-command. These extra menu items enabled by the option in the Settings
-just allows you to manually do these individual steps.
+1. **Start Batch** if necessary
+2. invoke your application's standard **Copy** command
+
+And you can think of the paste keyboard shortcut, or **Paste & Advance** in
+the menu, as doing:
+
+1. **Start Pasting From Batch** if necessary
+2. invoke your application's standard **Paste** command
+3. **Skip to Next**

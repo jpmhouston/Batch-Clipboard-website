@@ -1,5 +1,7 @@
 ![Logo Banner](img/banner.png)
 
+#
+
 Batch Clipboard is a free, simple menu bar utility for macOS that that adds the ability
 to copy and paste many items together. This feature is also known as a "clipboard queue" or
 as "sequential paste" in other, large clipboard manager apps.
@@ -25,14 +27,37 @@ Also, it's open source, and free to download on GitHub or the Mac App Store.
 
 Also, at times there may be a beta available on GitHub, or to those who [sign up](https://testflight.apple.com/join/epg3cusH) on TestFlight for the App Store version.
 
-Version 2.0 of Batch Clipboard and all earlier verions work on macOS Catalina 10.15 or higher.
+Version 2.x of Batch Clipboard and all earlier verions work on macOS Catalina 10.15 or higher.
 
 ---
 
-I humbly ask for your consideration of support, to myself by way of the in-app purchase
-of the App Store version, or with a [tip at buymeacoffee.com](https://www.buymeacoffee.com/bananameterlabs).
+# Documentation
+
+The next step is to enter the [start of the documentation pages](Installing-and-Starting.md)
+although if you're the `TL;DR` type who's already up and running and got the hang of it from
+description above, I still suggest visiting the
+[Ways to Use Batch Clipbaord](Ways-to-Use.md) page for some tips and tricks that
+might not be obvious.
+
+---
+
+# Thanks to Our Users
+
+We humbly ask for your consideration of support, either with:
+
+- **in-app purchase** of the App Store version
+- a **[tip at buymeacoffee.com](https://www.buymeacoffee.com/bananameterlabs)**
+
 *Also please consider supporting the original authors of [Maccy](https://maccy.app/) with a
 donation to them at their buymeacoffee [page](https://www.buymeacoffee.com/p0deje).*
+
+If you have an account on [GitHub](https://github.cmm), then please consider giving a
+star to the [code repository](https://github.com/jpmhouston/Batch-Clipboard).
+Enough stars and Batch Clipboard can be added to the default set of
+[homebrew](https://brew.sh) packages (homebrew a command-line package and application manager
+that popular among nerdy Mac users).
+
+---
 
 Made by [Bananameter Labs](https://bananameter.lol). Find us on some social media services
 as `bananameterlabs`, see the logo buttons in the footer below.

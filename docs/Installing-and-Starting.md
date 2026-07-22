@@ -42,8 +42,9 @@ or System Preferences_.
 If you'd rather dive right in instead of reading these documentation pages, the keyboard shortcuts
 <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> and
 <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>V</kbd>
-are really all you need to know. Have fun!
+are really all you need to know. However, if you'd like using them to be spell out in
+all full detail, advance to the next page [The Basics](The-Basics.md).
 
-The following page of documentation describe Batch Clipboard's menu, details about the
-keyboard shortcuts, other ways of starting to collect a batch of clipboard items and more
-hidden features, the setting window, and bonus features available in the Mac App Store version.
+And the further pages of documentation describe Batch Clipboard's menu, details about
+the keyboard shortcuts, other ways of using the application (perhaps with some surprises),
+the settings window, and bonus features available in the Mac App Store version.

@@ -55,15 +55,18 @@ extra:
 plugins:
   - blog
   - search
+  - meta
 
 nav:
   - About:
-    - About Batch Clipboard for macOS: index.md
+    - Batch Clipboard for macOS: index.md
     - Changes-Coming-In-Version-2.0.md
   - Documentation:
-    - Installing-and-Starting.md
-    - The-Basics.md
-    - Beyond-the-Basics.md
+    - Essentials:
+      - Installing-and-Starting.md
+      - The-Basics.md
+      - Beyond-the-Basics.md
+      - Ways to Use Batch Clipboard: Ways-to-Use.md
     - The Batch Clipboard Menu:
       - About the Batch Clipboard Menu: The-Batch-Clipboard-Menu.md
       - Menu-Icon-States.md
@@ -74,6 +77,7 @@ nav:
     - Settings:
       - About Settings: Settings.md
       - General-Panel.md
+      - Keys-Panel.md
       - Appearance-Panel.md
       - Support-Us-Panel.md
       - Storage-Panel.md

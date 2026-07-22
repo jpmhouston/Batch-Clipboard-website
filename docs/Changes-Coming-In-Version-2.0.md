@@ -1,24 +1,29 @@
-# Changes in Version 2.0
+# Changes in Version 2
 
-Version 2.0 of Batch Clipboard is now available (or will be soon) from [GitHub](https://github.com/jpmhouston/Batch-Clipboard/releases/latest) or the [Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238). It's a substantial update with a lot of changes, both visible and under the hood.
+Version 2.3 of Batch Clipboard is now available from [GitHub](https://github.com/jpmhouston/Batch-Clipboard/releases/latest) or the [Mac App Store](https://apps.apple.com/app/batch-clipboard/id6695729238). Version 2 is a substantial update over version 1 with a lot of changes, both visible and under the hood.
 
 TL;DR:
 
 1. new Repeat Last Batch menu item
 2. setting to hide the menubar icon
-3. performance and simplification improvements
-4. for app store in-app purchasers: save batches to repeat anytime later
+3. settings to show the application in the Dock and to start collecting a batch when clicking it
+4. performance and simplification improvements
+5. for app store in-app purchasers: save batches to repeat anytime later
 
-Below is the list of the 20 main changes and improvements summarized from the project's full [changelog](https://github.com/jpmhouston/Batch-Clipboard/blob/main/CHANGELOG.md).
+---
 
-> The remaining documentation pages [starting here](Installing-and-Starting.md) are written for version 1.0, but will be updated shortly.
+Below is the list of the 20+ main changes and improvements over version 1 summarized from the project's full [changelog](https://github.com/jpmhouston/Batch-Clipboard/blob/main/CHANGELOG.md).
 
+> Some of the documentation pages [starting here](Installing-and-Starting.md) are written for version 1, but will be updated in time.
+
+- Feature: starting a batch using the content already on the clipboard.
 - Feature: the ability to turn history off for simplicity and system efficiency with option in the Settings window Storage panel, with the default for new users being off.
 - Feature: users migrating from 1.0.x to 2.0 shows an Introduction window page offering to switch to the new history-off default or keep using history.
 - Feature: retaining the most recent batch in the application's database so it can be replaying again from a menu item, and support giving it a keyboard shortcut (empty by default).
 - Feature: saving the current or previous batch indefinitely, each saved batch recalled from menu items a new section of the menu, each can have an optional keyboard shortcut.
 - Feature: enhancement to Paste Multiple, in-between pasting each clip a new option to insert a space, newline, or comma.
 - Feature: the ability to hide the menu bar icon when the app has no active batch, or after re-opening the application from the Finder, controlled by an option in the General panel of the Settings window.
+- Feature: the ability to show the Batch Clipboard in the Dock, and optionally for clicks on the icon to initiate collecting a new batch of clips right away, also options in the General panel of the Settings window.
 - Improvement: the current batch being copied or pasted is now shown in the menu in top-down order, first to paste at the top.
 - Improvement: when deleting items from the menu with command-delete the menu no longer closes.
 - Improvement: for clarity, new title labels over Current Batch, Saved History, Saved Batch sections.
