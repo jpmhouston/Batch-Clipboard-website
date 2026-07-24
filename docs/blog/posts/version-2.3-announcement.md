@@ -45,7 +45,7 @@ item at the bottom of the Batch Clipboard menu, and in the window that opens, us
 
 -----
 
-The new feature in version 2.3:
+The new features in version 2.3:
 
 - Hold option key with the menu open to show Start Batch with
 Clipboard, use if you cut/copy something then realize you in fact want a

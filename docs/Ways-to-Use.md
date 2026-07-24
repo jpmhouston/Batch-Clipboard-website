@@ -75,14 +75,18 @@ Batch Clipboard with that also reveals the menu.
 The keyboard shortcut <kbd>CONTROL (^)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd>
 enters _batch mode_ plus does a Copy right after. You may wish to not use
 that at all and instead one of these techniques to just enter _batch mode_
-explicitly. Doing any of them highlights the menu bar icon with a count of 0
-beside it.
+explicitly, highlighting the menu bar icon with a count of 0 beside it.
 
-As mentioned in [Beyond the Basics](Beyond-the-Basics.md), _batch mode_ is
+> As mentioned in [Beyond the Basics](Beyond-the-Basics.md), _batch mode_ is
 when using Batch Clipboard to collect many clips, and also when pasting them.
 When in _batch mode_ the menu bar icon highlighted with the count of items
-collected and not yet pasted beside it. Then after they are all pasted the
+collected and not yet pasted beside it, and any change to the clipboard is
+picked up and added to the batch. Then after they are all pasted the
 clipboard returns to normal.
+
+Entering _batch mode_ explicitly means, for the most part, that you only need
+to use **one** new keyboard shortcut to use Batch Clipboard, the one for
+pasting from a batch.
 
 These 5 alternatives all share the same steps 2 & 3, they only differ
 in step 1 for starting _batch mode_ ...
